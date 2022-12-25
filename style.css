@@ -1,0 +1,42 @@
+.{
+margin:0;
+padding:0;
+}
+body{
+background-image:url("C.jpg");
+background-repeat:no-repeat;
+background-size:200vh 58vw;
+height:167px;
+width:173px;
+}
+.dino{
+background-color:blue;
+background-repeat:no-repeat;
+background-size:cover;
+height:167px;
+width:57px;
+position:absolute;
+bottom:0;
+left:2%;
+animation:jump 1s ;
+}
+ @keyframes jump{
+ 0%{top:150px;}
+ 30%{top:100px;}
+ 
+ }
+.obstacle{
+background-color:red;
+background-repeat:no-repeat;
+background-size:cover;
+position:absolute;
+height:112px;
+width:57px;
+bottom:0;
+left:50%;
+animation: obstacle 2s infinite linear;
+}
+@keyframes obstacle{
+0%{left:100%;}
+100%{left:-430px;}
+}
