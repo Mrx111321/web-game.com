@@ -10,8 +10,8 @@ setTimeout(function(){
 dino.classlist.remove("animate");
 },500);
 }
-var checkdead= setinterval(function(){
-var dinotop =
+var checkDead= setinterval(function(){
+var dinoTop =
 parseInt(window.getcomputedstyle(dino).
 getpropertyvalue("top"));
 var obstacleleft =
