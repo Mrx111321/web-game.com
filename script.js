@@ -8,7 +8,7 @@ dino.classlist.add("animate");
 }
 setTimeout(function(){
 dino.classlist.remove("animate");
-},500ms);
+},500);
 }
 var checkdead= setinterval(function(){
 var dinotop =
